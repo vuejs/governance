@@ -1,21 +1,21 @@
-# Introduction
+## Topics
 
-VueJS is a MVVM library. Similar to AngularJS, VueJS uses DOM-based templates - that is, you can simply use HTML and enhance it with data-binding through directives and filters. However, VueJS is not a framework. Its goal is to provide a lighter, simpler alternative while keeping all the magical data-binding goodness.
+- [What is VueJS?](wiki/What-is-VueJS)
+- [Getting Started](wiki/Getting-Started)
+- [Inline Expressions](wiki/Inline-Expressions)
+- [Computed Properties](wiki/Computed-Properties)
+- [Custom Directives](wiki/Custom-Directives)
+- [Custom Filters](wiki/Custom-Filters)
+- [Components and Elements](wiki/Components-and-Elements)
+- [Transitions](wiki/Transitions)
+- [Form Validation](wiki/Form-Validation)
+- [Routing](wiki/Routing)
 
-VueJS is:
+## Examples
 
-- Lightweight (10kb minified and gzipped & no dependency)
-- Simple (focused on the ViewModel only)
-- Modular (Nestable ViewModels & module system friendly)
-- Powerful (diretives, filters, computed properties, auto dependency tracking, expressions, transitions, custom elements...)
-
-VueJS would be particularly attractive if you:
-
-- Like plain object models
-- Like CommonJS
-- Use Component as your build system
-
-If you haven't done so yet, start with the [Getting Started Guide](wiki/Getting-Started). For example applications, check out the [TodoMVC implementation](https://github.com/yyx990803/vue/tree/master/examples/todomvc) and the [Vue + Firebase example](https://github.com/yyx990803/vue/tree/master/examples/firebase). For an example of structuring your project with Component for a highly-modular architecture, take a look at the [Vue + Component example](https://github.com/vuejs/vue-component-example).
+- **[TodoMVC Implementation](https://github.com/yyx990803/vue/tree/master/examples/todomvc)** : a fully specification-compliant TodoMVC implementation in ~110 SLOC.
+- [Firebase Example](https://github.com/yyx990803/vue/tree/master/examples/firebase) : a no-backend, multi-user realtime list with form validation.
+- [Component Example](https://github.com/vuejs/vue-component-example) : an example of a highly-modular app architecture using Component as the build system.
 
 ## API Reference
 
@@ -34,6 +34,7 @@ If you haven't done so yet, start with the [Getting Started Guide](wiki/Getting-
 
 - Data & Logic
     - scope
+    - proto
 - DOM Element
     - el
     - template
