@@ -14,76 +14,76 @@
 ## Examples
 
 - **[TodoMVC Implementation](https://github.com/yyx990803/vue/tree/master/examples/todomvc)** : a fully specification-compliant TodoMVC implementation in ~110 SLOC.
-- [Firebase Example](https://github.com/yyx990803/vue/tree/master/examples/firebase) : a no-backend, multi-user realtime list with form validation.
-- [Component Example](https://github.com/vuejs/vue-component-example) : an example of a highly-modular app architecture using Component as the build system.
+- **[Firebase Example](https://github.com/yyx990803/vue/tree/master/examples/firebase)** : a no-backend, multi-user realtime list with form validation.
+- **[Component Example](https://github.com/vuejs/vue-component-example)** : an example of a highly-modular app architecture using Component as the build system.
 
 ## API Reference
 
 ### [Global Methods](wiki/Global-Methods)
 
-- Vue.config(options)
-- Vue.directive(name, [directive])
-- Vue.filter(name, [filter])
-- Vue.component(name, [component])
-- Vue.element(name, [element])
-- Vue.partial(name, [partial])
-- Vue.transition(name, [transition])
-- Vue.extend(options)
+- [Vue.extend(options)](wiki/Global-Methods#vueextendoptions)
+- [Vue.directive(name, [directive])](wiki/Global-Methods#vuedirectivename-directive)
+- [Vue.filter(name, [filter])](wiki/Global-Methods#vuefiltername-filter)
+- [Vue.component(name, [component])](wiki/Global-Methods#vuecomponentname-component)
+- [Vue.element(name, [element])](wiki/Global-Methods#vueelementname-element)
+- [Vue.partial(name, [partial])](wiki/Global-Methods#vuepartialname-partial)
+- [Vue.transition(name, [transition])](wiki/Global-Methods#vuetransitionname-transition)
+- [Vue.config(options)](wiki/Global-Methods#vueconfigoptions)
 
 ### [Instantiation Options](wiki/Instantiation-Options)
 
-- Data & Logic
-    - scope
-    - proto
-- DOM Element
-    - el
-    - template
-    - replace
-    - id
-    - tagName (only honored is `el` is not present)
-    - className
-    - attributes
-- Hooks
-    - init
-    - teardown
-- Encapsulation
-    - directives
-    - filters
-    - components
-    - elements
-    - partials
-- Misc
-    - lazy
+- [Data & Logic](wiki/Instantiation-Options#data--logic)
+    - [scope](wiki/Instantiation-Options#scope)
+    - [proto](wiki/Instantiation-Options#proto)
+- [DOM Element](wiki/Instantiation-Options#dom-element)
+    - [el](wiki/Instantiation-Options#el)
+    - [template](wiki/Instantiation-Options#template)
+    - [replace](wiki/Instantiation-Options#replace)
+    - [tagName](wiki/Instantiation-Options#tagname)
+    - [id](wiki/Instantiation-Options#id)
+    - [className](wiki/Instantiation-Options#classname)
+    - [attributes](wiki/Instantiation-Options#attributes)
+- [Hooks](wiki/Instantiation-Options#hooks)
+    - [init](wiki/Instantiation-Options#init)
+    - [teardown](wiki/Instantiation-Options#teardown)
+- [Private Assets](wiki/Instantiation-Options#private-assets)
+    - [directives](wiki/Instantiation-Options#directives)
+    - [filters](wiki/Instantiation-Options#filters)
+    - [components](wiki/Instantiation-Options#components)
+    - [elements](wiki/Instantiation-Options#elements)
+    - [partials](wiki/Instantiation-Options#partials)
+- [Misc](wiki/Instantiation-Options#misc)
+    - [lazy](wiki/Instantiation-Options#lazy)
 
 ### [Instance Methods](wiki/Instance-Methods)
 
-- vm.$watch(keypath, callback)
-- vm.$unwatch(keypath, [callback])
-- vm.$on(event, callback)
-- vm.$off([event, callback])
-- vm.$emit(event, [args...])
-- vm.$broadcast(event, [args...])
-- vm.$destroy()
+- [vm.$watch(keypath, callback)](wiki/Instance-Methods#vmwatchkeypath-callback)
+- [vm.$unwatch(keypath, [callback])](wiki/Instance-Methods#vmunwatchkeypath-callback)
+- [vm.$on(event, callback)](wiki/Instance-Methods#vmonevent-callback)
+- [vm.$off([event, callback])](wiki/Instance-Methods#vmoffevent-callback)
+- [vm.$emit(event, [args...])](wiki/Instance-Methods#vmemitevent-args)
+- [vm.$broadcast(event, [args...])](wiki/Instance-Methods#vmbroadcastevent-args)
+- [vm.$destroy()](wiki/Instance-Methods#vmdestroy)
 
 ### [Directives](wiki/Directives)
 
-- v-text
-- v-html
-- v-visible
-- v-show
-- v-class
-- v-attr
-- v-style
-- v-on
-- v-if
-- v-repeat
-- v-model
+- [v-text](wiki/Directives#v-text)
+- [v-html](wiki/Directives#v-html)
+- [v-visible](wiki/Directives#v-visible)
+- [v-show](wiki/Directives#v-show)
+- [v-class](wiki/Directives#v-class)
+- [v-attr](wiki/Directives#v-attr)
+- [v-style](wiki/Directives#v-style)
+- [v-on](wiki/Directives#v-on)
+- [v-if](wiki/Directives#v-if)
+- [v-repeat](wiki/Directives#v-repeat)
+- [v-model](wiki/Directives#v-model)
 
 ### [Filters](wiki/Filters)
 
-- capitalize
-- uppercase
-- lowercase
-- currency
-- pluralize
-- key
+- [capitalize](wiki/Filters#capitalize)
+- [uppercase](wiki/Filters#uppercase)
+- [lowercase](wiki/Filters#lowercase)
+- [currency](wiki/Filters#currency)
+- [pluralize](wiki/Filters#pluralize)
+- [key](wiki/Filters#key)
