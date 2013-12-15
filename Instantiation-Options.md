@@ -7,11 +7,11 @@
 
 #### el
 #### template
+#### replace
+#### tagName
 #### id
 #### className
-#### tagName
 #### attributes
-#### replace
 
 ## Hooks
 
