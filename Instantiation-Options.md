@@ -13,10 +13,16 @@
 #### className
 #### attributes
 
-## Hooks
+## Lifecycle Hooks
 
-#### init
-#### teardown
+#### beforeCompile
+**alias: created**
+
+#### afterCompile
+**alias: ready**
+
+#### beforeDestroy
+#### afterDestroy
 
 ## Private Assets
 
