@@ -46,6 +46,8 @@
 - [Hooks](wiki/Instantiation-Options#hooks)
     - [beforeCompile / created](wiki/Instantiation-Options#beforecompile)
     - [afterCompile / ready](wiki/Instantiation-Options#aftercompile)
+    - [enteredView](wiki/Instantiation-Options#enteredview)
+    - [leftView](wiki/Instantiation-Options#leftview)
     - [beforeDestroy](wiki/Instantiation-Options#beforedestroy)
     - [afterDestroy](wiki/Instantiation-Options#afterdestroy)
 - [Private Assets](wiki/Instantiation-Options#private-assets)
@@ -65,9 +67,9 @@
 - [vm.$off([event, callback])](wiki/Instance-Methods#vmoffevent-callback)
 - [vm.$emit(event, [args...])](wiki/Instance-Methods#vmemitevent-args)
 - [vm.$broadcast(event, [args...])](wiki/Instance-Methods#vmbroadcastevent-args)
-- [vm.$appendTo()](wiki/Instance-Methods#vmappendto)
-- [vm.$before()](wiki/Instance-Methods#vmbefore)
-- [vm.$after()](wiki/Instance-Methods#vmafter)
+- [vm.$appendTo(element | selector)](wiki/Instance-Methods#vmappendtoelement--selector)
+- [vm.$before(element | selector)](wiki/Instance-Methods#vmbeforeelement--selector)
+- [vm.$after(element | selector)](wiki/Instance-Methods#vmafterelement--selector)
 - [vm.$remove()](wiki/Instance-Methods#vmremove)
 - [vm.$destroy()](wiki/Instance-Methods#vmdestroy)
 
@@ -84,6 +86,11 @@
 - [v-if](wiki/Directives#v-if)
 - [v-repeat](wiki/Directives#v-repeat)
 - [v-model](wiki/Directives#v-model)
+- [v-component](wiki/Directives#v-component)
+- [v-component-id](wiki/Directives#v-component-id)
+- [v-transition](wiki/Directives#v-transition)
+- [v-partial](wiki/Directives#v-partial)
+- [v-pre](wiki/Directives#v-pre)
 
 ### [Filters](wiki/Filters)
 
