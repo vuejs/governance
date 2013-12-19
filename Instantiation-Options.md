@@ -21,6 +21,8 @@
 #### afterCompile
 **alias: ready**
 
+#### enteredView
+#### leftView
 #### beforeDestroy
 #### afterDestroy
 
