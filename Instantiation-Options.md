@@ -1,7 +1,7 @@
 ## Data & Logic
 
-#### scope
-#### proto
+#### data
+#### methods
 
 ## DOM Element
 

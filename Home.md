@@ -33,8 +33,8 @@
 ### [Instantiation Options](wiki/Instantiation-Options)
 
 - [Data & Logic](wiki/Instantiation-Options#data--logic)
-    - [scope](wiki/Instantiation-Options#scope)
-    - [proto](wiki/Instantiation-Options#proto)
+    - [data](wiki/Instantiation-Options#data)
+    - [methods](wiki/Instantiation-Options#methods)
 - [DOM Element](wiki/Instantiation-Options#dom-element)
     - [el](wiki/Instantiation-Options#el)
     - [template](wiki/Instantiation-Options#template)
@@ -58,6 +58,16 @@
     - [partials](wiki/Instantiation-Options#partials)
 - [Misc](wiki/Instantiation-Options#misc)
     - [lazy](wiki/Instantiation-Options#lazy)
+
+### [Instance Properties](wiki/Instance-Properties)
+
+- vm.$
+- vm.$el
+- vm.$data
+- vm.$compiler
+- vm.$index
+- vm.$parent
+- vm.$root
 
 ### [Instance Methods](wiki/Instance-Methods)
 
