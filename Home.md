@@ -1,21 +1,20 @@
 ## Topics
 
 - [What is VueJS?](wiki/What-is-VueJS)
+- [Installation](wiki/Installation)
 - [Getting Started](wiki/Getting-Started)
-- [Inline Expressions](wiki/Inline-Expressions)
-- [Computed Properties](wiki/Computed-Properties)
-- [Custom Directives](wiki/Custom-Directives)
-- [Custom Filters](wiki/Custom-Filters)
-- [Components and Elements](wiki/Components-and-Elements)
+- [Writing a Custom Directive](wiki/Writing-a-Custom-irective)
+- [Writing a Custom Filter](wiki/Writing-a-Custom-Filter)
+- [Child Components](wiki/Child-Components)
 - [Transitions](wiki/Transitions)
 - [Form Validation](wiki/Form-Validation)
 - [Routing](wiki/Routing)
 
 ## Examples
 
-- **[TodoMVC Implementation](https://github.com/yyx990803/vue/tree/master/examples/todomvc)** : a fully specification-compliant TodoMVC implementation in ~110 SLOC.
-- **[Firebase Example](https://github.com/yyx990803/vue/tree/master/examples/firebase)** : a no-backend, multi-user realtime list with form validation.
-- **[Component Example](https://github.com/vuejs/vue-component-example)** : an example of a highly-modular app architecture using Component as the build system.
+- **[TodoMVC Implementation][todomvc]** : a fully specification-compliant TodoMVC implementation in ~110 SLOC.
+- **[Firebase Example][firebase]** : a no-backend, multi-user realtime list with form validation.
+- **[Component Example][component-example]** : an example of a highly-modular app architecture using Component as the build system.
 
 ## API Reference
 
@@ -61,13 +60,13 @@
 
 ### [Instance Properties](wiki/Instance-Properties)
 
-- vm.$
-- vm.$el
-- vm.$data
-- vm.$compiler
-- vm.$index
-- vm.$parent
-- vm.$root
+- [vm.$](wiki/Instance-Properties#vm)
+- [vm.$el](wiki/Instance-Properties#vmel)
+- [vm.$data](wiki/Instance-Properties#vmdata)
+- [vm.$compiler](wiki/Instance-Properties#vmcompiler)
+- [vm.$index](wiki/Instance-Properties#vmindex)
+- [vm.$parent](wiki/Instance-Properties#vmparent)
+- [vm.$root](wiki/Instance-Properties#vmroot)
 
 ### [Instance Methods](wiki/Instance-Methods)
 
@@ -110,3 +109,7 @@
 - [currency](wiki/Filters#currency)
 - [pluralize](wiki/Filters#pluralize)
 - [key](wiki/Filters#key)
+
+[todomvc]: https://github.com/yyx990803/vue/tree/master/examples/todomvc
+[firebase]: https://github.com/yyx990803/vue/tree/master/examples/firebase
+[component-example]: https://github.com/vuejs/vue-component-example
