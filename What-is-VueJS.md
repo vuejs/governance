@@ -8,7 +8,7 @@ VueJS is:
 
 - **Simple**
 
-    VueJS focues on the interface only and has a minimal, declarative API. Creating a ViewModel is as simple as instantiating a new object with some passed-in options. It uses plain JS objects as the Model so no `get()` or `set()` verbosity. It provides automatic dependency tracking for computed properties and expressions. All of these features make it highly expressive: the included TodoMVC example is implemented with ~110 lines of code.
+    VueJS focuses on the interface only and has a minimal, declarative API. Creating a ViewModel is as simple as instantiating a new object with some passed-in options. It uses plain JS objects as the Model so no `get()` or `set()` verbosity. It provides automatic dependency tracking for computed properties and expressions. All of these features make it highly expressive: the included TodoMVC example is implemented with ~110 lines of code.
 
 - **Fast**
 
