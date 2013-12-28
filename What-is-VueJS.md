@@ -22,9 +22,9 @@ VueJS is:
 
     VueJS is built with [Component], but it can also be used with [Browserify], with module loaders such as [RequireJS], or just as a standalone library.
     
-Sounds good? [Let's get started](wiki/Getting-Started).
+Sounds good? [Let's get started](Getting-Started).
 
-[benchmark]: wiki/Performance
+[benchmark]: Performance
 [Component]: https://github.com/component/component
 [Browserify]: http://browserify.org
 [RequireJS]: http://requirejs.org
