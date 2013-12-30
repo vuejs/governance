@@ -1,4 +1,4 @@
-## Component
+### Component
 
 ``` bash
 $ component install yyx990803/vue
@@ -7,7 +7,7 @@ $ component install yyx990803/vue
 var Vue = require('vue')
 ```
 
-## Browserify
+### Browserify
 
 ``` bash
 $ npm install vue
@@ -16,7 +16,7 @@ $ npm install vue
 var Vue = require('vue')
 ```
 
-## Bower
+### Bower
 
 ``` bash
 $ bower install vue
@@ -26,10 +26,10 @@ $ bower install vue
 ```
 `Vue` will be registered as a global variable.
 
-## Module Loaders
+### Module Loaders
 
 e.g. RequireJS, SeaJS: Built versions in `/dist` or installed via Bower is wrapped with UMD so it can be used directly as a CommonJS or AMD module.
 
-## Standalone
+### Standalone
 
 Simply include a built version in `/dist` with a `<script>` tag.

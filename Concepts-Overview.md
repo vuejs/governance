@@ -1,5 +1,3 @@
-## Concepts Overview
-
 VueJS shares a number of concepts with AngularJS. If you have used Angular before, you will find VueJS very easy to pick up.
 
 Concept             | As in VueJS
@@ -13,21 +11,21 @@ Concept             | As in VueJS
 [Expression]        | Simple JavaScript expressions that can be used inside directives.
 [Computed Property] | A model property that gets auto-updated when its dependencies change.
 
-## View
+### View
 
-## Template
+### Template
 
-## Model
+### Model
 
-## ViewModel
+### ViewModel
 
-## Directive
+### Directive
 
-## Filter
+### Filter
 
-## Expression
+### Expression
 
-## Computed Property
+### Computed Property
 
 [ViewModel]: #viewmodel
 [Model]: #model
