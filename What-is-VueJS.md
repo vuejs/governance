@@ -1,4 +1,8 @@
-VueJS is a library for building interactive interfaces. It provides the **ViewModel** layer of the MVVM pattern, which connects the **View** (the actual HTML that the user sees) and the **Model** (JSON-compliant plain JavaScript objects) via two way data-bindings.
+VueJS is a library that aims to simplify the development of interactive interfaces.
+
+Technically, it provides the **[ViewModel]** layer of the MVVM pattern, which connects the **[View]** (the actual HTML that the user sees) and the **[Model]** (JSON-compliant plain JavaScript objects) via two way data-bindings.
+
+Philosophically, the goal is to allow the developer to embrace an extremely minimal mental model when dealing with interfaces - there's only one type of object you need to worry about: the ViewModel. It is where all the view logic happens, and manipulating the ViewModel will automatically keep the View and the Model in sync. Actuall DOM manipulations and output formatting are abstracted away into **[Directives]** and **[Filters]**.
 
 VueJS is:
 
@@ -28,3 +32,8 @@ Sounds good? [Let's get started](Getting-Started).
 [Component]: https://github.com/component/component
 [Browserify]: http://browserify.org
 [RequireJS]: http://requirejs.org
+[ViewModel]: Concepts-Overview#viewmodel
+[View]: Concepts-Overview#view
+[Model]: Concepts-Overview#model
+[Directives]: Concepts-Overview#directive
+[Filters]: Concepts-Overview#filter

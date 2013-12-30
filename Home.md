@@ -2,6 +2,7 @@
 
 - [What is VueJS?](wiki/What-is-VueJS)
 - [Installation](wiki/Installation)
+- [Concepts Overview](wiki/Concepts-Overview)
 - [Getting Started](wiki/Getting-Started)
 - [Writing a Custom Directive](wiki/Writing-a-Custom-irective)
 - [Writing a Custom Filter](wiki/Writing-a-Custom-Filter)

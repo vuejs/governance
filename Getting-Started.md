@@ -1,15 +1,3 @@
-## Concept Overview
-
-Concept | As in VueJS
-:--- | :---
-ViewModel | An object that syncs the Model and the View.
-Model | A slightly modified plain JavaScript object.
-View | The actual HTML that the user sees.
-Directive | A prefixed HTML attribute that tells VueJS to do something about an element.
-Filter | A function to process the value with before updating the View.
-Expression | Simple JavaScript expressions that can be used inside directives.
-Computed Property | A model property that gets auto-updated when its dependencies change.
-
 ## A Quick Example
 
 **HTML**
@@ -31,6 +19,7 @@ var demo = new Vue({
     methods: {
     	changeText: function () {
             this.hello = 'Hello VueJS!'
-       }	    }
+       }	
+    }
 })
 ```
