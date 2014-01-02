@@ -1,3 +1,5 @@
+If you are unfamiliar with MVVM or finding yourself confused by some of the terms, check out the [Concepts Overview] first.
+
 ### A Quick Example
 
 **HTML**
@@ -23,3 +25,5 @@ var demo = new Vue({
     }
 })
 ```
+
+[Concepts Overview]: Concepts-Overview
