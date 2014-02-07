@@ -1,8 +1,0 @@
-#### Vue.extend(options)
-#### Vue.directive(name, [directive])
-#### Vue.filter(name, [filter])
-#### Vue.component(name, [component])
-#### Vue.element(name, [element])
-#### Vue.partial(name, [partial])
-#### Vue.transition(name, [transition])
-#### Vue.config(options)
