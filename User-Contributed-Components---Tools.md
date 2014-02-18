@@ -1,0 +1,2 @@
+- [VENM stack yeoman generator](https://github.com/jfelsinger/generator-venm) by @jfelsinger
+- [Vue placeholder directives](https://github.com/lithiumjake/vue-placeholders) by @lithiumjake
