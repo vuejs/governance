@@ -2,6 +2,18 @@
 
     Vue.js is able to deliver the plain JavaScript object syntax without resorting to dirty checking by using `Object.defineProperty`, which is an ECMAScript 5 feature. It only works on DOM elements in IE8 and there's no way to polyfill it for JavaScript objects.
 
+- **What is the current status of Vue.js? Can I use it in production?**
+
+    Vue.js is currently still in beta state (as of v0.9.1), so use it with caution and check for updates often. The API and internal mechanisms will be consolidated when v0.10 lands and Vue.js will be considered ready for production by then.
+
+- **Where is Vue.js being used? Are there any shipped projects?**
+
+    Vue.js is currently being used in internal projects at Google Creative Lab. Unfortunately these projects are confidential and cannot be shared with the public at this moment. However you are welcome to submit anything you built with Vue.js! Just send a tweet to @vuejs.
+
+- **So is Vue.js a Google project?**
+
+    No. Although it is being used at Google Creative Lab, Vue.js is a personal project and fully open sourced under the MIT License.
+
 - **What is the difference between Vue.js and AngularJS?**
 
     There are a few reasons to use Vue over Angular, although they might not apply for everyone:
@@ -19,15 +31,3 @@
     1. Vue.js is a relatively young project and is not fully stable yet, while Angular is battle-proven and has a larger community. So if you want something for a large, serious production app you might want to pick Angular.
 
     2. Vue.js only supports IE9 and above while Angular suppots IE8.
-
-- **What is the current status of Vue.js? Can I use it in production?**
-
-    Vue.js is currently still in beta state (as of v0.9.1), so use it with caution and check for updates often. The API and internal mechanisms will be consolidated when v0.10 lands and Vue.js will be considered ready for production by then.
-
-- **Where is Vue.js being used? Are there any shipped projects?**
-
-    Vue.js is currently being used in internal projects at Google Creative Lab. Unfortunately these projects are confidential and cannot be shared with the public at this moment. However you are welcome to submit anything you built with Vue.js! Just send a tweet to @vuejs.
-
-- **So is Vue.js a Google project?**
-
-    No. Although it is being used at Google Creative Lab, Vue.js is a personal project and fully open sourced under the MIT License.
