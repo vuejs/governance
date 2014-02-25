@@ -35,3 +35,7 @@
 - **What is the future plan?**
 
     See the [Roadmap](https://github.com/yyx990803/vue/issues/78).
+
+- **I want to help!**
+
+    Great! Read the [contribution guide](https://github.com/yyx990803/vue/blob/master/CONTRIBUTING.md) and join discussions on IRC (#vuejs).
