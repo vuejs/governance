@@ -44,6 +44,12 @@
 
     2. Vue.js only supports IE9 and above while Angular suppots IE8.
 
+- **What makes Vue.js different from React.js?**
+
+    React.js and Vue.js do have some similarity in that they both provide reactive & composable View components. However the internal implementation is fundamentally different. React is built upon a virtual DOM - an in-memory representation of what the actual DOM should look like. Data in React is largely immutable and DOM manipulations are calculate via diffing. On the contrary data in Vue.js is mutable and stateful by default, and changes are triggered through events. Instead of a virtual DOM, Vue.js uses the actual DOM as the template and keeps references to actual nodes for data bindings. I don't think either implementation is fundamentally superior, and each of them has its own advantages and caveats.
+
+    One benefit of Vue.js' DOM-based templating is that the developer can easily extend the vocabulary of the template and encapsulate custom DOM manipulations by creating custom directives.
+
 - **What is the future plan?**
 
     See the [Roadmap](https://github.com/yyx990803/vue/issues/78).
