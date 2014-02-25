@@ -2,6 +2,18 @@
 
     Vue.js is able to deliver the plain JavaScript object syntax without resorting to dirty checking by using `Object.defineProperty`, which is an ECMAScript 5 feature. It only works on DOM elements in IE8 and there's no way to polyfill it for JavaScript objects.
 
+- **So Vue.js modifies my data?**
+
+    Yes and No. Vue.js only converts normal properties into getters and setters so it can get notified when the properties are accessed or changed. When serialized, your data will look exactly the same. There are some very minor caveats:
+
+    1. When you console.log observed objects you will only see a bunch of getter/setters. You will have to JSON.stringify them first.
+
+    2. You cannot define your own getter/setters on data objects. This isn't much of a problem because data objects are expected to be obtained from plain JSON and Vue.js provides computed properties.
+
+    3. Vue.js sometimes have to attach hidden properties (`$index`, `$key`, `$value`, `$repeater` and `__emitter__`) to data objects in order to observe them. If you accidentally overwrite these properties it would break. But it's very easy to avoid - just don't set anything that start with `$` on your data objects.
+
+    That's pretty much it. Accessing properties on the object is the same as before, `JSON.stringify` and `for ... in ...` loops will work as normal. 99.9% of the time you don't even need to think about it.
+
 - **What is the current status of Vue.js? Can I use it in production?**
 
     Vue.js is currently still in beta state (as of v0.9.1), so use it with caution and check for updates often. The API and internal mechanisms will be consolidated when v0.10 lands and Vue.js will be considered suitable for production by then.
