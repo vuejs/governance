@@ -6,7 +6,7 @@
 
     Yes and No. Vue.js only converts normal properties into getters and setters so it can get notified when the properties are accessed or changed. When serialized, your data will look exactly the same. There are some very minor caveats:
 
-    1. When you console.log observed objects you will only see a bunch of getter/setters. You will have to JSON.stringify them first.
+    1. When you `console.log` observed objects you will only see a bunch of getter/setters. You will have to `JSON.stringify` them first.
 
     2. You cannot define your own getter/setters on data objects. This isn't much of a problem because data objects are expected to be obtained from plain JSON and Vue.js provides computed properties.
 
