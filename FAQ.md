@@ -31,3 +31,7 @@
     1. Vue.js is a relatively young project and is not fully stable yet, while Angular is battle-proven and has a larger community. So if you want something for a large, serious production app you might want to pick Angular.
 
     2. Vue.js only supports IE9 and above while Angular suppots IE8.
+
+- **What is the future plan?**
+
+    See the [Roadmap](https://github.com/yyx990803/vue/issues/78).
