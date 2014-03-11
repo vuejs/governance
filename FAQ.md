@@ -16,7 +16,7 @@
 
 - **What is the current status of Vue.js? Can I use it in production?**
 
-    Vue.js is currently still in beta state (as of v0.9.1), so use it with caution and check for updates often. The API and internal mechanisms will be consolidated when v0.10 lands and Vue.js will be considered suitable for production by then.
+    Vue.js is currently still in beta state (as of v0.9.3), so use it with caution and check for updates often. The API and internal mechanisms will be consolidated when v1.0.0 lands and Vue.js will be considered suitable for production by then.
 
 - **Where is Vue.js being used? Are there any shipped projects?**
 
