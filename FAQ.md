@@ -44,6 +44,12 @@
 
     2. Vue.js only supports IE9 and above while Angular suppots IE8.
 
+- **What makes Vue.js different from KnockoutJS?**
+
+    First, Vue provides a cleaner syntax in getting and setting VM properties.
+
+    On a higher level, Vue differs from Knockout in that Vue's component system encourages you to take a top-down, structure first, declarative design strategy, instead of imperatively build up ViewModels from bottom up. In Vue the source data are plain, logic-less objects (ones that you can directly JSON.stringify and throw into a post request), and the ViewModel simply proxies access to that data on itself. A Vue VM instance always connects raw data to a corresponding DOM element. In Knockout, the ViewModel essentially **is** the data and the line between Model and ViewModel is pretty blurry. Due to the lack of differentiation between view logic and data logic, Knockout ViewModels can easily get convoluted.
+
 - **What makes Vue.js different from React.js?**
 
     React.js and Vue.js do have some similarity in that they both provide reactive & composable View components. However the internal implementation is fundamentally different. React is built upon a virtual DOM - an in-memory representation of what the actual DOM should look like. Data in React is largely immutable and DOM manipulations are calculated via diffing. On the contrary data in Vue.js is mutable and stateful by default, and changes are triggered through events. Instead of a virtual DOM, Vue.js uses the actual DOM as the template and keeps references to actual nodes for data bindings. I don't think either implementation is fundamentally superior, and each of them has its own advantages and caveats.
