@@ -1,3 +1,5 @@
+> Please do not edit this page.
+
 - **Why doesn't Vue.js support IE8?**
 
     Vue.js is able to deliver the plain JavaScript object syntax without resorting to dirty checking by using `Object.defineProperty`, which is an ECMAScript 5 feature. It only works on DOM elements in IE8 and there's no way to polyfill it for JavaScript objects.
