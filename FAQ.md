@@ -48,7 +48,7 @@
 
     First, Vue provides a cleaner syntax in getting and setting VM properties.
 
-    On a higher level, Vue differs from Knockout in that Vue's component system encourages you to take a top-down, structure first, declarative design strategy, instead of imperatively build up ViewModels from bottom up. In Vue the source data are plain, logic-less objects (ones that you can directly JSON.stringify and throw into a post request), and the ViewModel simply proxies access to that data on itself. A Vue VM instance always connects raw data to a corresponding DOM element. In Knockout, the ViewModel essentially **is** the data and the line between Model and ViewModel is pretty blurry. Due to the lack of differentiation between view logic and data logic, Knockout ViewModels can easily get convoluted.
+    On a higher level, Vue differs from Knockout in that Vue's component system encourages you to take a top-down, structure first, declarative design strategy, instead of imperatively build up ViewModels from bottom up. In Vue the source data are plain, logic-less objects (ones that you can directly JSON.stringify and throw into a post request), and the ViewModel simply proxies access to that data on itself. A Vue VM instance always connects raw data to a corresponding DOM element. In Knockout, the ViewModel essentially **is** the data and the line between Model and ViewModel is pretty blurry. This lack of differentiation makes Knockout more flexible, but also much more likely to result in convoluted ViewModels.
 
 - **What makes Vue.js different from React.js?**
 
