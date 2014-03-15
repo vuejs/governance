@@ -11,3 +11,7 @@
 #### Chrome Extensions
 
 * Tab Searching: https://github.com/jiyinyiyong/tab-searching
+
+### More
+
+[Dependency tracing on SourceGraph](https://sourcegraph.com/github.com/yyx990803/vue/$network/dependents)
