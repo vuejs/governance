@@ -5,3 +5,4 @@
 - [Vue Lanes](https://github.com/bpierre/vue-lanes), an event-based routing system for Vue by @bpierre
 - [Vue Tag Editor Component](https://github.com/hnakamur/vue.tag-editor.js) by @hnakamur
 - [Node Webkit + Vue example](https://github.com/brandonjpierce/node-webkit-boilerplate) by @brandonjpierce
+- [Internationalization plugin of Vue.js](https://github.com/kazupon/vue-i18n) by @kazupon
