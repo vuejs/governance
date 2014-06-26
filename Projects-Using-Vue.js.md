@@ -5,7 +5,6 @@
 #### Small Web Apps
 
 * Todolist of @jiyinyiyong : https://github.com/jiyinyiyong/todolist
-* Piratebay movie browser of @marfalkov : http://jsfiddle.net/marfalkov/e9H23/embedded/result/
 
 #### Chrome Extensions
 
