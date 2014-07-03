@@ -6,3 +6,4 @@
 - [Vue Tag Editor Component](https://github.com/hnakamur/vue.tag-editor.js) by @hnakamur
 - [Node Webkit + Vue example](https://github.com/brandonjpierce/node-webkit-boilerplate) by @brandonjpierce
 - [Internationalization plugin of Vue.js](https://github.com/kazupon/vue-i18n) by @kazupon
+- [Vue in viewport detection directive](https://github.com/holic/vue-viewport) by @holic
