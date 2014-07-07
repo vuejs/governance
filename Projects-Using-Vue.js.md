@@ -1,6 +1,7 @@
 > This is a community-curated page. Add your app made with Vue.js to the list!
 
 #### Large Single Pages Web Apps
+* BUYIT By @[Workswell Australia](http://workswell.com.au): http://bt.workswell.com.au (in development)
 
 #### Small Web Apps
 
