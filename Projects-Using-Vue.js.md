@@ -6,6 +6,7 @@
 #### Small Web Apps
 
 * Todolist of @jiyinyiyong : https://github.com/jiyinyiyong/todolist
+* CasperBox IDE: http://ide.casperbox.com 
 
 #### Chrome Extensions
 
