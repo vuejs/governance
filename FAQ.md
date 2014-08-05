@@ -36,7 +36,7 @@
 
     2. Vue.js is much simpler than Angular in general, so you can learn almost everything about it really fast and get productive.
 
-    3. Vue.js has better performance because it doesn't use dirty checking. Angular gets slow when there are a lot of watchers, because every time anything in the scope changes, all these watchers need to be re-evaluated again. Vue.js doesn't suffer from this because under it uses an event based observing mechanism, so all changes trigger independently unless they have explicit dependency relationships.
+    3. Vue.js has better performance because it doesn't use dirty checking. Angular gets slow when there are a lot of watchers, because every time anything in the scope changes, all these watchers need to be re-evaluated again. Vue.js doesn't suffer from this because it uses an event based observing mechanism, so all changes trigger independently unless they have explicit dependency relationships.
 
     4. Vue.js has a clearer separation between directives and components. Directives are meant to encapsulate DOM manipulations only, while Components stand for a self-contained unit that has its own view and data logic. In Angular there's a lot of confusion between the two.
 
@@ -44,7 +44,7 @@
 
     1. Vue.js is a relatively young project and is not fully stable yet, while Angular is battle-proven and has a larger community. So if you want something for a large, serious production app you might want to pick Angular.
 
-    2. Vue.js only supports IE9 and above while Angular supports IE8.
+    2. Vue.js only supports IE9 and above while Angular supports IE8. (Angular 2.0 is dropping IE8 as well)
 
 - **What makes Vue.js different from KnockoutJS?**
 
@@ -54,9 +54,7 @@
 
 - **What makes Vue.js different from React.js?**
 
-    React.js and Vue.js do have some similarity in that they both provide reactive & composable View components. However the internal implementation is fundamentally different. React is built upon a virtual DOM - an in-memory representation of what the actual DOM should look like. Data in React is largely immutable and DOM manipulations are calculated via diffing. On the contrary data in Vue.js is mutable and stateful by default, and changes are triggered through events. Instead of a virtual DOM, Vue.js uses the actual DOM as the template and keeps references to actual nodes for data bindings. I don't think either implementation is fundamentally superior, and each of them has its own advantages and caveats.
-
-    One benefit of Vue.js' DOM-based templating is that the developer can easily extend the vocabulary of the template and encapsulate custom DOM manipulations by creating custom directives, and use them in a declarative fashion (which is why AngularJS is awesome).
+    React.js and Vue.js do have some similarity in that they both provide reactive & composable View components. However the internal implementation is fundamentally different. React is built upon a virtual DOM - an in-memory representation of what the actual DOM should look like. Data in React is largely immutable and DOM manipulations are calculated via diffing. On the contrary data in Vue.js is mutable and stateful by default, and changes are triggered through events. Instead of a virtual DOM, Vue.js uses the actual DOM as the template and keeps references to actual nodes for data bindings. The virtual-DOM approach provides a functional way to describe your view at any point of time, which is really nice. One issue with React is that your logic and your view are tightly knit together. For someone this is a bonus, but for designer/developer hybrids like me, having a template makes it much easier to think visually about the design and CSS. JSX mixed with JavaScript logic breaks that visual model I need to map the code to the design. In contrast, Vue.js pays the cost of a lightweight DSL (directives) so that we have a visually scannable template and with logic encapsulated into directives and filters. I don't think either Vue's or React's implementation is fundamentally superior, it really depends on your need and development style.
 
 - **What is the future plan?**
 
