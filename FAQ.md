@@ -56,7 +56,13 @@
 
     React.js and Vue.js do have some similarity in that they both provide reactive & composable View components. However the internal implementation is fundamentally different. React is built upon a virtual DOM - an in-memory representation of what the actual DOM should look like. Data in React is largely immutable and DOM manipulations are calculated via diffing. On the contrary data in Vue.js is mutable and stateful by default, and changes are triggered through events. Instead of a virtual DOM, Vue.js uses the actual DOM as the template and keeps references to actual nodes for data bindings.
 
-    The virtual-DOM approach provides a functional way to describe your view at any point of time, which is really nice. But one issue with React is that your logic and your view are tightly knit together. For someone this is a bonus, but for designer/developer hybrids like me, having a template makes it much easier to think visually about the design and CSS. JSX mixed with JavaScript logic breaks that visual model I need to map the code to the design. In contrast, Vue.js pays the cost of a lightweight DSL (directives) so that we have a visually scannable template and with logic encapsulated into directives and filters. I don't think either Vue's or React's implementation is fundamentally superior, it really depends on your need and development style.
+    The virtual-DOM approach provides a functional way to describe your view at any point of time, which is really nice. Because it doesn't use observables and re-renders the entire app on every update, the view is by definition guaranteed to be in sync with the data.
+
+    One issue with React is that your logic and your view are tightly knit together. For someone this is a bonus, but for designer/developer hybrids like me, having a template makes it much easier to think visually about the design and CSS. JSX mixed with JavaScript logic breaks that visual model I need to map the code to the design. In contrast, Vue.js pays the cost of a lightweight DSL (directives) so that we have a visually scannable template and with logic encapsulated into directives and filters.
+
+    Another issue is because DOM updates are completely delegated to the Virtual DOM, it's a bit tricky when you actually **want** to control the DOM yourself (although theoretically you can, you'd be essentially working against the library when you do that). In Vue.js, just write a custom directive.
+
+    Personally I don't think either Vue's or React's implementation is fundamentally superior, it really depends on your need and development style.
 
 - **What is the future plan?**
 
