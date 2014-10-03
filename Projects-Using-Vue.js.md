@@ -8,6 +8,10 @@
 * Todolist of @jiyinyiyong : https://github.com/jiyinyiyong/todolist
 * CasperBox: https://www.casperbox.com 
 
+#### Web Services
+
+* CUUSOO: https://cuusoo.com
+
 #### Chrome Extensions
 
 * Tab Searching: https://github.com/jiyinyiyong/tab-searching
