@@ -8,3 +8,4 @@
 - [Internationalization plugin of Vue.js](https://github.com/kazupon/vue-i18n) by @kazupon
 - [Vue in viewport detection directive](https://github.com/holic/vue-viewport) by @holic
 - [Vue once directive](https://github.com/kewah/vue-once) by @kewah
+- [Vue for Meteor](https://github.com/zhouzhuojie/meteor-vue) by @zhouzhuojie
