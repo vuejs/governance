@@ -23,10 +23,16 @@
 #### Web Services
 
 * CUUSOO: https://cuusoo.com
+* Expressionery: https://www.expressionery.com/estore/
 
 #### Chrome Extensions
 
 * Tab Searching: https://github.com/jiyinyiyong/tab-searching
+
+#### Enterprise Usage in Production
+
+- Optimizely (Dashboard)
+- UCWeb (Mobile portals)
 
 ### More
 
