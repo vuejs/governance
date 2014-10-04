@@ -10,7 +10,7 @@
 
 #### Large web apps
 
-* BUYIT By @[Workswell Australia](http://workswell.com.au): http://bt.workswell.com.au (in development)
+* [BUYIT](http://bt.workswell.com.au) by @[Workswell Australia](http://workswell.com.au)
 * [CasperBox](https://www.casperbox.com)
 * [CUUSOO](https://cuusoo.com)
 * [Expressionery](https://www.expressionery.com)
