@@ -2,6 +2,7 @@
 
 - [vue-touch](https://github.com/vuejs/vue-touch): Hammer.js wrapper directives for touch gestures.
 - [vue-element](https://github.com/vuejs/vue-element): Register real custom elements with Vue.
+- [vue-i18n](https://github.com/kazupon/vue-i18n): Internationalization plugin.
 
 ## Tools
 
