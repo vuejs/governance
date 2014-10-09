@@ -24,6 +24,7 @@
 #### Small apps
 
 * [Todolist](https://github.com/jiyinyiyong/todolist) by @jiyinyiyong
+* [Portfolio Site](http://corentinbac.com/) by Corentin Bac
 
 #### Chrome Extensions
 
