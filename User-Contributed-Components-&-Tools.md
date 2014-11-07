@@ -9,3 +9,4 @@
 - [Vue in viewport detection directive](https://github.com/holic/vue-viewport) by @holic
 - [Vue once directive](https://github.com/kewah/vue-once) by @kewah
 - [Vue for Meteor](https://github.com/zhouzhuojie/meteor-vue) by @zhouzhuojie
+- [Vue validator](https://github.com/xrado/vue-validator) by @xrado
