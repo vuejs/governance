@@ -16,6 +16,10 @@
 * [Expressionery](https://www.expressionery.com)
 * [dna.spacedeck.com](https://dna.spacedeck.com)
 
+#### Mobile apps
+
+* [Mozilla WebMaker](https://github.com/mozillafordevelopment/webmaker-app)
+
 #### Enterprise Usage in Production
 
 - Optimizely (Dashboard)
@@ -23,6 +27,7 @@
 
 #### Small apps
 
+* [HN Clone](http://yyx990803.github.io/vue-hackernews)
 * [Todolist](https://github.com/jiyinyiyong/todolist) by @jiyinyiyong
 * [Portfolio Site](http://corentinbac.com/) by Corentin Bac
 
