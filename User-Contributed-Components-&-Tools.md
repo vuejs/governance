@@ -13,3 +13,4 @@
 - [Vue for Meteor](https://github.com/zhouzhuojie/meteor-vue) by @zhouzhuojie
 - [Vue validator](https://github.com/xrado/vue-validator) by @xrado
 - [Vue Syntax Highlighting for Atom](https://atom.io/packages/language-vue-component) by @CYBAI
+- [Vue Modified Directive](https://github.com/KyleRoss/vue-modified) by @KyleRoss
