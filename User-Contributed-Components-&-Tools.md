@@ -1,5 +1,5 @@
 > Add yours!
-
+- [Vue view](https://github.com/molforp/vue-view), ui-router inspired routes (with states), based on pagejs by @molforp
 - [Vue page](https://github.com/AlexToudic/vue-page), a routing system based on pagejs by @AlexToudic
 - [VENM stack yeoman generator](https://github.com/jfelsinger/generator-venm) by @jfelsinger
 - [Vue placeholder directives](https://github.com/lithiumjake/vue-placeholders) by @lithiumjake
