@@ -25,6 +25,7 @@
 
 - Optimizely (Dashboard)
 - UCWeb (Mobile portals)
+- Line (Embedded Mobile Apps)
 
 #### Small apps
 
