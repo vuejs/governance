@@ -33,6 +33,7 @@
 * [HN Clone](http://yyx990803.github.io/vue-hackernews)
 * [Todolist](https://github.com/jiyinyiyong/todolist) by @jiyinyiyong
 * [Portfolio Site](http://corentinbac.com/) by Corentin Bac
+* [p5.js Editor](https://github.com/processing/p5.js-editor)
 
 #### Chrome Extensions
 
