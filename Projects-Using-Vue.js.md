@@ -7,6 +7,7 @@
 - [Heineken Star Experience](http://www.starexperience.fr/) - FWA SOTD.
 - [Louis Ansa Website (portfolio)](http://louisansa.com) - Awwwards SOTD, FWA nominee.
 - [Digital For All](http://www.digitalforallnow.com/en/experience)
+- [Djeco.com](http://www.djeco.com/en)
 
 #### Large web apps
 
