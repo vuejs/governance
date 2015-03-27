@@ -26,6 +26,7 @@
 #### Enterprise Usage in Production
 
 - Optimizely (Dashboard)
+- Expedia (Viewfinder)
 - UCWeb (Mobile portals)
 - Line (Embedded Mobile Apps)
 
