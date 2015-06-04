@@ -20,7 +20,6 @@
 
 #### Mobile apps
 
-* [Mozilla WebMaker](https://github.com/mozillafordevelopment/webmaker-app)
 * [Compare Prices by Currys & PCWorld](https://play.google.com/store/apps/details?id=uk.co.dixons.compareprices&hl=en)
 
 #### Enterprise Usage in Production
