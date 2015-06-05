@@ -15,3 +15,5 @@
 - [Vue validator](https://github.com/xrado/vue-validator) by @xrado
 - [Vue Syntax Highlighting for Atom](https://atom.io/packages/language-vue-component) by @CYBAI
 - [Vue Modified Directive](https://github.com/KyleRoss/vue-modified) by @KyleRoss
+- [Typed select component](https://github.com/dgerber/vue-select-js) by @dgerber
+- [Form generation from JSON Schema](https://github.com/dgerber/vue-select-js) by @dgerber
