@@ -17,3 +17,4 @@
 - [Vue Modified Directive](https://github.com/KyleRoss/vue-modified) by @KyleRoss
 - [Typed select component](https://github.com/dgerber/vue-select-js) by @dgerber
 - [Form generation from JSON Schema](https://github.com/dgerber/vue-select-js) by @dgerber
+- [Maintain scroll position on page changes](https://github.com/mark-hahn/vue-keep-scroll) by @mark-hahn
