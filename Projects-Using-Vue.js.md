@@ -35,6 +35,7 @@
 * [Todolist](https://github.com/jiyinyiyong/todolist) by @jiyinyiyong
 * [Portfolio Site](http://corentinbac.com/) by Corentin Bac
 * [p5.js Editor](https://github.com/processing/p5.js-editor)
+* [Dashboard framework](https://github.com/thelinuxlich/vue-dashing-js)
 
 #### Chrome Extensions
 
