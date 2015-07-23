@@ -4,7 +4,7 @@ Starting in 0.12.8, it is quite simple to configure the tools to strip out the w
 
 ### Webpack
 
-Use Webpack's `DefinePlugin` to indicate a production environment, so that warning blocks can be automatically dropped by UglifyJS during minification. Example config:
+Use Webpack's [DefinePlugin](http://webpack.github.io/docs/list-of-plugins.html#defineplugin) to indicate a production environment, so that warning blocks can be automatically dropped by UglifyJS during minification. Example config:
 
 ``` js
 var webpack = require('webpack')
@@ -29,4 +29,8 @@ module.exports = {
 
 ### Browserify
 
-Just run your bundling command with `NODE_ENV` set to `"production"`. Vue automatically applies `envify` transform to itself and makes warning blocks unreachable.
+Just run your bundling command with `NODE_ENV` set to `"production"`. Vue automatically applies [envify](https://github.com/hughsk/envify) transform to itself and makes warning blocks unreachable. For example:
+
+``` bash
+NODE_ENV=production browserify -e main.js | uglifyjs -c -m > build.js
+```
