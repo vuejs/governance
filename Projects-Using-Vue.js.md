@@ -9,7 +9,7 @@
 - [Digital For All](http://www.digitalforallnow.com/en/experience)
 - [Djeco.com](http://www.djeco.com/en)
 
-#### Large web apps
+#### Web Apps
 
 * [BUYIT](http://bt.workswell.com.au) by @[Workswell Australia](http://workswell.com.au)
 * [CasperBox](https://www.casperbox.com)
@@ -17,10 +17,19 @@
 * [Expressionery](https://www.expressionery.com)
 * [dna.spacedeck.com](https://dna.spacedeck.com)
 * [esa.io](https://esa.io/)
+* [HN Clone](https://github.com/vuejs/vue-hackernews)
+* [Todolist](https://github.com/jiyinyiyong/todolist) by @jiyinyiyong
+* [Portfolio Site](http://corentinbac.com/) by Corentin Bac
+* [Dashboard framework](https://github.com/thelinuxlich/vue-dashing-js)
+* [Python China](https://python-china.org/)
 
-#### Mobile apps
+#### Mobile Apps
 
 * [Compare Prices by Currys & PCWorld](https://play.google.com/store/apps/details?id=uk.co.dixons.compareprices&hl=en)
+
+#### Desktop Apps
+
+* [p5.js Editor](https://github.com/processing/p5.js-editor)
 
 #### Enterprise Usage in Production
 
@@ -28,14 +37,6 @@
 - Expedia (Viewfinder)
 - UCWeb (Mobile portals)
 - Line (Embedded Mobile Apps)
-
-#### Small apps
-
-* [HN Clone](https://github.com/vuejs/vue-hackernews)
-* [Todolist](https://github.com/jiyinyiyong/todolist) by @jiyinyiyong
-* [Portfolio Site](http://corentinbac.com/) by Corentin Bac
-* [p5.js Editor](https://github.com/processing/p5.js-editor)
-* [Dashboard framework](https://github.com/thelinuxlich/vue-dashing-js)
 
 #### Chrome Extensions
 
