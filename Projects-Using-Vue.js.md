@@ -11,17 +11,17 @@
 
 #### Web Apps
 
+* [HN Clone](https://github.com/vuejs/vue-hackernews)
 * [BUYIT](http://bt.workswell.com.au) by @[Workswell Australia](http://workswell.com.au)
 * [CasperBox](https://www.casperbox.com)
 * [CUUSOO](https://cuusoo.com)
 * [Expressionery](https://www.expressionery.com)
 * [dna.spacedeck.com](https://dna.spacedeck.com)
 * [esa.io](https://esa.io/)
-* [HN Clone](https://github.com/vuejs/vue-hackernews)
 * [Todolist](https://github.com/jiyinyiyong/todolist) by @jiyinyiyong
 * [Portfolio Site](http://corentinbac.com/) by Corentin Bac
-* [Dashboard framework](https://github.com/thelinuxlich/vue-dashing-js)
-* [Python China](https://python-china.org/)
+* [Dashboard framework](https://github.com/thelinuxlich/vue-dashing-js) by @thelinuxlich
+* [Python China](https://python-china.org/) by @lepture
 
 #### Mobile Apps
 
