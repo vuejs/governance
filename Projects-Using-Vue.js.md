@@ -22,7 +22,7 @@
 * [Portfolio Site](http://corentinbac.com/) by Corentin Bac
 * [Dashboard framework](https://github.com/thelinuxlich/vue-dashing-js) by @thelinuxlich
 * [Python China](https://python-china.org/) by @lepture
-* [N1.ru](https://n1.ru)
+* [N1.ru](http://n1.ru)
 
 #### Mobile Apps
 
