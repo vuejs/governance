@@ -34,9 +34,11 @@
 
 #### Enterprise Usage in Production
 
+- Alibaba (淘宝无线)
+- Ele.me (大数据平台)
 - Optimizely (Dashboard)
 - Expedia (Viewfinder)
-- UCWeb (Mobile portals)
+- UC优视 (Mobile portals)
 - Line (Embedded Mobile Apps)
 
 #### Chrome Extensions
