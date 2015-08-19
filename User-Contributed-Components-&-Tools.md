@@ -18,3 +18,4 @@
 - [Typed select component](https://github.com/dgerber/vue-select-js) by @dgerber
 - [Form generation from JSON Schema](https://github.com/dgerber/vue-select-js) by @dgerber
 - [Maintain scroll position on page changes](https://github.com/mark-hahn/vue-keep-scroll) by @mark-hahn
+- [Vue generator](https://github.com/BirdEggegg/generator-vue), a simple yeoman generator for Vue by @BirdEggegg
