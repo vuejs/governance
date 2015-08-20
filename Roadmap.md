@@ -28,8 +28,3 @@
   - [vue-router](https://github.com/vuejs/vue-router) ✓
   
   - [vue-validator](https://github.com/vuejs/vue-validator) ✓
-
-### Community
-
-  - Calling for user-contributed examples for tutorials!
-  - Open for blog post submissions once the blog is set up
