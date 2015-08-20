@@ -25,7 +25,7 @@
 
   - [vue-resource](https://github.com/vuejs/vue-resource) ✓
   
-  - [vue-router](https://github.com/vuejs/vue-router) ✓ (WIP)
+  - [vue-router](https://github.com/vuejs/vue-router) ✓
   
   - [vue-validator](https://github.com/vuejs/vue-validator) ✓
 
