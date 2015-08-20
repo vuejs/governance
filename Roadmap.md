@@ -12,9 +12,10 @@
 - CommonJS-based build setup ✓
   - Browserify + Vueify ✓
   - Webpack + vue-loader ✓
-    - Scoped CSS ([WIP](https://github.com/vuejs/vue-loader/pull/13))
+    - Scoped CSS ✓
+- Improved Dev Tools
+- CLI for scaffolding large SPAs
 - Server-side rendering
-- Starter Kit
 
 ### Plugins
 
