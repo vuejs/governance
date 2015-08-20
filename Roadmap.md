@@ -21,7 +21,7 @@
 
   Please discuss plugin specific topics in each plugin's respective repo. The general philosophy for these plugins is to be light, self-contained, and most importantly avoid reinventing the wheel. Build on top of solid low level solutions and mostly just make them Vue-friendly.
   
-  - [vue-touch](https://github.com/vuejs/vue-touch) ✓
+  - [vue-touch](https://github.com/vuejs/vue-touch) ✓ (Needs refactor/update)
 
   - [vue-resource](https://github.com/vuejs/vue-resource) ✓
   
