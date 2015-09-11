@@ -42,6 +42,7 @@
 - Expedia (Viewfinder)
 - UC优视 (Mobile portals)
 - Line (Embedded Mobile Apps)
+- Nintendo (Splatoon Squid Forum)
 - [Restorepoint](http://www.restorepoint.com) (Device configuration management)
 
 #### Chrome Extensions
