@@ -24,6 +24,7 @@
 * [Python China](https://python-china.org/) by @lepture
 * [N1.ru](http://n1.ru)
 * [稀土掘金](http://gold.xitu.io)
+* [PageKit](http://pagekit.com/)
 
 #### Mobile Apps
 
