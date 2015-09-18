@@ -44,6 +44,7 @@
 - Line (Embedded Mobile Apps)
 - Nintendo (Splatoon Squid Forum)
 - [Restorepoint](http://www.restorepoint.com) (Device configuration management)
+* [Laracasts](https://laracasts.com)
 
 #### Chrome Extensions
 
