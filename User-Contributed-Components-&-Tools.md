@@ -20,3 +20,8 @@
 - [Form generation from JSON Schema](https://github.com/dgerber/vue-select-js) by @dgerber
 - [Maintain scroll position on page changes](https://github.com/mark-hahn/vue-keep-scroll) by @mark-hahn
 - [Vue generator](https://github.com/BirdEggegg/generator-vue), a simple yeoman generator for Vue by @BirdEggegg
+- [vue-titlecase](https://github.com/Haixing-Hu/vue-titlecase):  A plugin providing a global filter and an instance method used to titlecase (different from capitalize) strings. By @Haixing-Hu
+- [vue-format](https://github.com/Haixing-Hu/vue-format): A plugin providing a global filter and an instance method used to format messages with arguments.  By @Haixing-Hu
+- [vue-i18n](https://github.com/Haixing-Hu/vue-i18n): A plugin providing a global interface used to localize internationalized messages used in the application.  By @Haixing-Hu
+- [vue-select](https://github.com/Haixing-Hu/vue-select): A Vue.js component implementing the select control with the [jQuery select2 plugin](https://github.com/select2/select2).  By @Haixing-Hu
+- [vue-html-editor](https://github.com/Haixing-Hu/vue-html-editor): A Vue.js component implementing the HTML editor with the [jQuery summernote plugin](https://github.com/summernote/summernote). By @Haixing-Hu
