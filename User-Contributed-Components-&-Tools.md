@@ -26,4 +26,4 @@
 - [vue-select](https://github.com/Haixing-Hu/vue-select): A Vue.js component implementing the select control with the [jQuery select2 plugin](https://github.com/select2/select2).  By @Haixing-Hu
 - [vue-html-editor](https://github.com/Haixing-Hu/vue-html-editor): A Vue.js component implementing the HTML editor with the [jQuery summernote plugin](https://github.com/summernote/summernote). By @Haixing-Hu
 - [vue-datetime-picker](https://github.com/Haixing-Hu/vue-datetime-picker): A Vue.js component implementing the datetime picker control using the [Eonasdan's bootstrap datetime picker plugin](https://github.com/Eonasdan/bootstrap-datetimepicker). By @Haixing-Hu
-- [vue-mdl](https://github.com/posva/vue-mdl): Reusable Vue.js component using Material Design Lite. By [@posva](https://github.com/posva)
+- [vue-mdl](https://github.com/posva/vue-mdl): Reusable Vue.js components using Material Design Lite. By [@posva](https://github.com/posva)
