@@ -4,7 +4,7 @@
   - v0.10.x: API and internal improvements ✓
   - v0.11.x: Consolidate API for future specs ✓
   - v0.12.x: Improve API to make it easier to ship standalone, reusable components and build larger-scale applications. ✓
-  - v1.0: See [1.0 plans](https://github.com/vuejs/Discussion/issues/347)
+  - v1.0: See [1.0 plans](https://github.com/vuejs/Discussion/issues/347) ✓
 
 ### Tooling
 
@@ -14,8 +14,8 @@
   - Browserify + Vueify ✓
   - Webpack + vue-loader ✓
     - Scoped CSS ✓
-- Improved Dev Tools
-- CLI for scaffolding large SPAs
+- Improved Dev Tools ✓
+- CLI for scaffolding large SPAs ✓
 - Server-side rendering
 
 ### Plugins
