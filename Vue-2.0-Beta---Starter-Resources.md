@@ -39,6 +39,10 @@ The main support libraries are [vue-router](https://github.com/vuejs/vue-router)
 
 Check the Changelogs on the releases page from v.2.0.0-beta.1 onwards to get up to speed with the new API.
 
+**Installation**
+```
+npm install vue-router@next --save-dev
+```
 ### Vuex
 
 **Two RC versions? What the heck?**
@@ -65,7 +69,7 @@ npm install vuex@next --save-dev
 
 ## Build Tools
 
-vue-loader (for webpack) and vueify (for browserify) are already up to speed as well
+vue-loader (for webpack) and vueify (for browserify) are already up to speed as well, offering preview versions. They will just work with Vue 2.0, there are no relevant API changes to consider.
 
 ### vue-loader
 
