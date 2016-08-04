@@ -31,11 +31,11 @@ If you find a bug, **please** don't hesitate to report it! Just follow the [Issu
 
 ## Supporting Libraries
 
-The main support libraries are vue-router, a router for vue components and vuex, a reactive flux implementation with single-state-tree store.
+The main support libraries are [vue-router](https://github.com/vuejs/vue-router), a router for vue components and [vuex](https://github.com/vuejs/vuex), a reactive flux implementation with single-state-tree store.
 
 ###  Vue-Router
 
-[vue-router](https://github.com/vuejs/vue-router) is the offical routing library for Vue, and there is a preview release that supports Vue 2.0 and comes with several improvements and an overhauled API.
+[vue-router](https://github.com/vuejs/vue-router) is the official routing library for Vue, and there is a preview release that supports Vue 2.0 and comes with several improvements and an overhauled API.
 
 Check the Changelogs on the releases page from v.2.0.0-beta.1 onwards to get up to speed with the new API.
 
@@ -43,7 +43,7 @@ Check the Changelogs on the releases page from v.2.0.0-beta.1 onwards to get up 
 
 **Two RC versions? What the heck?**
 
-Yes, there are currently two seperate Release candidates: one for version `1.0` ([Release notes](https://github.com/vuejs/vuex/releases/tag/v1.0.0-rc)) and one for Version `2.0` ([Release notes](https://github.com/vuejs/vuex/releases/tag/v2.0.0-rc.3))
+Yes, there are currently two separate Release candidates: one for version `1.0` ([Release notes](https://github.com/vuejs/vuex/releases/tag/v1.0.0-rc)) and one for Version `2.0` ([Release notes](https://github.com/vuejs/vuex/releases/tag/v2.0.0-rc.3))
 
 So what's the difference? 
 
@@ -83,9 +83,9 @@ npm install vueify@next --save-dev
 
 ## Vue-cli and Templates
 
-[vue-cli](https://github.com/vuejs/vuue-cli) is the command line tool that helps you to quickly set up projects with vue-loader or vueify and other goodies like eslint support.
+[vue-cli](https://github.com/vuejs/vuue-cli) is the command line tool that helps you to quickly set up projects with vue-loader or vueify and other goodies, like eslint support.
 
-vue-cli offers two flavours of templates: the 'normal' ones come with a complete setup for dev, testing and building for producion, while the '-simple' versions offer a quick start to get hacking.
+vue-cli offers two flavors of templates: the 'normal' ones come with a complete setup for dev, testing and building for production, while the '-simple' versions offer a quick start to get hacking.
 
 * The "bigger" templates (`webpack` and `browserify`) are **not** ready for vue 2.0 yet
 * But there are `2.0`-ready version of `-simple` templates for both bundlers: [`webpack-simple-2.0`](https://github.com/vuejs-templates/webpack-simple-2.0) and [`browserify-simple-2.0`](https://github.com/vuejs-templates/browserify-simple-2.0)
