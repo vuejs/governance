@@ -69,14 +69,14 @@ vue-loader (for webpack) and vueify (for browserify) are already up to speed as 
 
 ### vue-loader
 
-Vue 2.0 is supported from `v9.0.*` onwards. 
+Vue 2.0 is supported from `v9.0.*` onwards. ([Release Notes](https://github.com/vuejs/vue-loader/releases))
 ```
 npm install vue-loader@next --save-dev
 ```
 
 ### vueify
 
-Pretty much the same goes for Vueify - `v9.0.*` support Vue 2.0.
+Pretty much the same goes for Vueify - `v9.0.*` onward supports Vue 2.0. ([Release Notes](https://github.com/vuejs/vueify/releases))
 ```
 npm install vueify@next --save-dev
 ```
