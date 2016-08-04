@@ -88,7 +88,7 @@ npm install vueify@next --save-dev
 vue-cli offers two flavors of templates: the 'normal' ones come with a complete setup for dev, testing and building for production, while the '-simple' versions offer a quick start to get hacking.
 
 * The "bigger" templates (`webpack` and `browserify`) are **not** ready for vue 2.0 yet
-* But there are `2.0`-ready version of `-simple` templates for both bundlers: [`webpack-simple-2.0`](https://github.com/vuejs-templates/webpack-simple-2.0) and [`browserify-simple-2.0`](https://github.com/vuejs-templates/browserify-simple-2.0)
+* But there are `2.0`-ready versions of the `-simple` templates for both bundlers: [`webpack-simple-2.0`](https://github.com/vuejs-templates/webpack-simple-2.0) and [`browserify-simple-2.0`](https://github.com/vuejs-templates/browserify-simple-2.0)
 ````
 vue init webpack-simple-2.0 my-project
 vue init browserify-simple-2.0 my-project
