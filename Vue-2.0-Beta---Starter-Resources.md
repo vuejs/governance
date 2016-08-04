@@ -17,7 +17,7 @@ npm install vue@next --save-dev
 
 The API of 2.0 stays mostly the same. Most changes have been under the hood (virtual dom, anyone?), and a couple of features have been deprecated in order to make the API more slim and consistent and guide you to use better patterns. 
 
-The best place to start is the [2.0 Changes Github Issue](https://github.com/vuejs/vue/issues/2873). It will offer you a quick overview of all changes, additions and deprecations, as well as tips on how to handle the deprecations with recommended patterns.
+The best place to start is the [2.0 Changes Github Issue](https://github.com/vuejs/vue/issues/2873). It will offer you a quick overview of all changes, additions and deprecations, as well as tips on how to handle the deprecations with recommended patterns (scroll past the long, awesome list of finished features and changes).
 
 The repo's [releases page](https://github.com/vuejs/vue/releases) page offers further information as every beta release comes with extensive changelogs explaining the various changes that were made.
 
