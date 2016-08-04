@@ -78,7 +78,7 @@ npm install vue-loader@next --save-dev
 
 Pretty much the same goes for Vueify - `v9.0.*` support Vue 2.0.
 ```
-npm install vue-router@next --save-dev
+npm install vueify@next --save-dev
 ```
 
 ## Vue-cli and Templates
