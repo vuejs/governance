@@ -85,7 +85,7 @@ Pretty much the same goes for vueify - `v9.0.*` onward supports Vue 2.0. ([Relea
 npm install vueify@next --save-dev
 ```
 
-## Vue-cli and Templates
+## vue-cli and Templates
 
 [vue-cli](https://github.com/vuejs/vuue-cli) is the command line tool that helps you to quickly set up projects with vue-loader or vueify and other goodies, like ESlint support.
 
