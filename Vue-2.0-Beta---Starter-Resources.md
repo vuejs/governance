@@ -1,6 +1,6 @@
 # Introduction
 
-Exciting Times! [Vue 2.0](https://github.com/vuejs/vue/releases) is already in beta, and the supporting libraries - [vuex](#vuex), [vue-router](#vue-router) – and build tools – [vueify](#vueify) and [vue-loader](#vue-loader) – offer preview versions that are 2.0-ready as well! [vue-cli](#vue-cli) also offers simple templates to start hacking with `2.0` today!
+Exciting Times! [Vue 2.0](https://github.com/vuejs/vue/releases) is already in beta, and the supporting libraries – [vuex](#vuex), [vue-router](#vue-router) – and build tools – [vueify](#vueify) and [vue-loader](#vue-loader) – offer preview versions that are 2.0-ready as well! [vue-cli](#vue-cli) also offers simple templates to start hacking with `2.0` today!
 
 While we are working on fixing the last couple of bugs and getting the docs for everything up to date, there's nothing to keep you from taking 2.0 for a test ride right now!
 
