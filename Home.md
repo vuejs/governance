@@ -4,7 +4,7 @@ Welcome to the vue wiki!
 ***
 ### Vue 2.0 is almost here! 
 
-To get started with `Vue 2.0-beta`, see [Vue-2.0 Beta - Starter Resources](https://github.com/vuejs/vue/wiki/Vue-2.0-Beta-Starter-Resources)
+To get started with `Vue 2.0 RC`, see [Vue-2.0 RC Starter Resources](https://github.com/vuejs/vue/wiki/Vue-2.0-Beta-Starter-Resources)
 
 ***
 
