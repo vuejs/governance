@@ -44,7 +44,7 @@ import Vue from 'vue'
 // => loads the lighter runtime-only build, which does not include the template parser
 // => The actual file is vue/dist/vue.common.js
 ```
-You want to use the runtime-only buld if you use a bundler setup with [webpack](vue-loader) or [browserify](vueify) (see the [Build Tools](build-tools) Section further down this page), while the standalone build is, well for standalone use (e.g. wiht a `<script>` tag directly in a page). 
+You want to use the runtime-only buld if you use a bundler setup with [webpack](#vue-loader) or [browserify](#vueify) (see the [Build Tools](#build-tools) Section further down this page), while the standalone build is, well for standalone use (e.g. wiht a `<script>` tag directly in a page). 
 
 The runtime-only build does not include the template parser and is therefore lighter, and we do not need the template parser in a bundler scenario because vue-loader / vueify will convert any component templates into render functions for us.
 
