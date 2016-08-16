@@ -19,7 +19,7 @@ The API of 2.0 stays mostly the same. Most changes have been under the hood (vir
 
 If you have never used Vue before, the best place to start is the [WIP official 2.0 Guide](http://rc.vuejs.org/guide/). The guide doesn't assume any previous Vue.js knowledge so you can jump directly into 2.0!
 
-It's a good idea to go over the new guide even if you have previous Vue.js experience with 1.x, since there are a lot of new content thanks to the hard work by @chrisvfritz. Note the API section is not completed yet, and you can check out [this issue](https://github.com/vuejs/vuejs.org/issues/319) to keep yourself updated to the docs progress.
+It's a good idea to go over the new guide even if you have previous Vue.js experience with 1.x, since there is a lot of new content thanks to the hard work by @chrisvfritz. Note the API section is not completed yet, and you can check out [this issue](https://github.com/vuejs/vuejs.org/issues/319) to keep yourself updated to the docs progress.
 
 If you just want to know what has changed from 1.x, you can check out the [2.0 Changes Github Issue](https://github.com/vuejs/vue/issues/2873). It will offer you a quick overview of all changes, additions, and deprecations, as well as tips on how to handle the deprecations with recommended patterns (scroll past the long, awesome list of finished features and changes).
 
