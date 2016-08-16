@@ -31,6 +31,34 @@ If you have any questions left (as we are sure you will), don't hesitate to ask 
 
 If you find a bug, **please** don't hesitate to report it! Just follow the [Issue Reporting Guidelines](https://github.com/vuejs/vue/blob/dev/CONTRIBUTING.md#issue-reporting-guidelines).
 
+### Different Builds
+
+There are two builds available:
+```
+import Vue from 'vue'
+// => loads the lighter runtime-only build.
+// => The actual file is vue/dist/vue.common.js
+
+import Vue from 'vue/dist/vue'
+// => this is the standalone build, which includes the template parser, and is therefore heavier
+// => The actual file is /vue/dist/vue.js
+```
+You want to use *runtime-only* if you use ab bundler setup with webpack or browserify (see below), the standalone build is, well for standalone use (e.g. wiht a `<script>` tag directly in a page). The runtime-only build does not include the template parser, so which is fine because vue-loader / browserify will convert any templates into render funtcions.
+
+But if you do want to use the standalone build with such a build setup and use hot-reloading (e.g. because for some reason you need to use templates in a HTML document, which vue-loader can't parse), you can *not* do `import Vue from 'vue/dist/vue'`, because the `vue-hot-reload-api` will load the runtime-only build, and you will see unexpected behaviour (plugin methods not available in components, for example).
+
+instead, add the followingf to the `webpack.base.conf.js` config:
+```js
+// ...
+resolve: {
+    alias: {vue: 'vue/dist/vue.js'}
+},
+// ....
+
+// then require like this:
+import Vue from 'vue'
+```
+
 ## Supporting Libraries
 
 The main support libraries are [vue-router](https://github.com/vuejs/vue-router), a router for Vue components and [vuex](https://github.com/vuejs/vuex), a reactive flux-like implementation with single-state-tree store. Both libraries are now also in 2.0-rc state, however the documentation has not been updated yet.
