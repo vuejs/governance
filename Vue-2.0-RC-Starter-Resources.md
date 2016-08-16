@@ -43,7 +43,9 @@ import Vue from 'vue/dist/vue'
 // => this is the standalone build, which includes the template parser, and is therefore heavier
 // => The actual file is /vue/dist/vue.js
 ```
-You want to use *runtime-only* if you use ab bundler setup with webpack or browserify (see below), the standalone build is, well for standalone use (e.g. wiht a `<script>` tag directly in a page). The runtime-only build does not include the template parser, so which is fine because vue-loader / browserify will convert any templates into render funtcions.
+You want to use *runtime-only* if you use a bundler setup with webpack or browserify (see below) while the standalone build is, well for standalone use (e.g. wiht a `<script>` tag directly in a page). 
+
+The runtime-only build does not include the template parser and is therefore lighter, and we do not need the template parser in bundler scenarios because because vue-loader / browserify will convert any component templates into render functions.
 
 But if you do want to use the standalone build with such a build setup and use hot-reloading (e.g. because for some reason you need to use templates in a HTML document, which vue-loader can't parse), you can *not* do `import Vue from 'vue/dist/vue'`, because the `vue-hot-reload-api` will load the runtime-only build, and you will see unexpected behaviour (plugin methods not available in components, for example).
 
