@@ -50,7 +50,7 @@ The runtime-only build does not include the template parser and is therefore lig
 
 But if you do want to use the standalone build with such a build setup for some reason and use hot-reloading (e.g. because  you need to use templates in a HTML document, which vue-loader can't parse), you can **not** do `import Vue from 'vue/dist/vue'`, because `vue-hot-reload-api` loads the runtime-only build, and you will see unexpected behaviour (plugin methods not available in components, for example) with two different builds in the mix.
 
-Instead, add the followingf to the `webpack.base.conf.js` config:
+Instead, add the following alias to your `webpack.base.conf.js` config:
 ```js
 // ...
 resolve: {
