@@ -61,6 +61,7 @@ resolve: {
 // then require like this:
 import Vue from 'vue'
 ```
+For Browserify, you can use [aliasify](https://github.com/benbria/aliasify) for the same effect.
 
 ## Supporting Libraries
 
