@@ -48,7 +48,7 @@ You should  to use the runtime-only buld if you want to use a bundler setup with
 
 The runtime-only build does not include the template parser and is therefore lighter, and we do not need the template parser in a bundler scenario because vue-loader / vueify will convert any component templates into render functions for us.
 
-But if you do want to use the standalone build with such a build setup for some reason and use hot-reloading (e.g. because  you need to use templates in a HTML document, which vue-loader can't parse), you can **not** do `import Vue from 'vue/dist/vue'`, because `vue-hot-reload-api` loads the runtime-only build, and you will see unexpected behaviour (plugin methods not available in components, for example) with two different builds in the mix.
+But if you do want to use the standalone build with such a build setup for some reason (e.g. because  you have to use templates in an HTML document, which vue-loader can't parse) and use hot-reloading, you can **not** use `import Vue from 'vue/dist/vue'` to load Vue, because `vue-hot-reload-api` loads the runtime-only build, and you will see unexpected behaviour (plugin methods not available in components, for example) with two different builds in the mix.
 
 Instead, add the following alias to your `webpack.base.conf.js` config:
 ```js
