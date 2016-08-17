@@ -31,36 +31,34 @@ If you have any questions left (as we are sure you will), don't hesitate to ask 
 
 If you find a bug, **please** don't hesitate to report it! Just follow the [Issue Reporting Guidelines](https://github.com/vuejs/vue/blob/dev/CONTRIBUTING.md#issue-reporting-guidelines).
 
-### Different Builds
+### Standalone vs. Runtime Builds
 
-There are two builds available, the standalone build and the runtime-only build:
-```js
-import Vue from 'vue/dist/vue'
-// => this is the standalone build, which includes the template parser, and is therefore heavier
-// => not recommended with a bundler / hot-reloading setup, see below!
-// => The actual file is /vue/dist/vue.js
+There are two builds available, the standalone build and the runtime-only build.
 
+- The standalone build includes the compiler and supports the `template` option.
+
+- The runtime-only build does not include the template compiler, and does not support the `template` option. You can only use the `render` option when using the runtime-only build. The benefit is that it is roughly 1/3 lighter-weight than the standalone build.
+
+When you use `vue-loader` or `vueify` to import `*.vue` files, their `<template>` parts are automatically compiled into `render` functions. It is therefore recommended to use the runtime-only build with `*.vue` files.
+
+When using a bundler like Browserify or Webpack, if you do this:
+
+``` js
 import Vue from 'vue'
-// => loads the lighter runtime-only build, which does not include the template parser
-// => The actual file is vue/dist/vue.common.js
 ```
-You should  to use the runtime-only buld if you want to use a bundler setup with [vue-loader](#vue-loader) or [vueify](#vueify) (see the [Build Tools](#build-tools) Section further down this page), while the standalone build is, well for standalone use (e.g. wiht a `<script>` tag directly in a page). 
 
-The runtime-only build does not include the template parser and is therefore lighter, and we do not need the template parser in a bundler scenario because vue-loader / vueify will convert any component templates into render functions for us.
+...you are getting the runtime-only build because that is the default export of the NPM package. If you do want to use the standalone build for some reason (e.g. because you have to use templates in an HTML document), you need to configure the bundler to alias `vue` to the standalone build instead.
 
-But if you do want to use the standalone build with such a build setup for some reason (e.g. because  you have to use templates in an HTML document, which vue-loader can't parse) and use hot-reloading, you can **not** use `import Vue from 'vue/dist/vue'` to load Vue, because `vue-hot-reload-api` loads the runtime-only build, and you will see unexpected behaviour (plugin methods not available in components, for example) with two different builds in the mix.
+With webpack, add the following alias to your webpack config:
 
-Instead, add the following alias to your `webpack.base.conf.js` config:
 ```js
 // ...
 resolve: {
     alias: {vue: 'vue/dist/vue.js'}
 },
 // ....
-
-// then require like this:
-import Vue from 'vue'
 ```
+
 For Browserify, you can use [aliasify](https://github.com/benbria/aliasify) for the same effect.
 
 ## Supporting Libraries
