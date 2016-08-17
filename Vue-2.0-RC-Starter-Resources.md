@@ -61,7 +61,7 @@ resolve: {
 
 For Browserify, you can use [aliasify](https://github.com/benbria/aliasify) for the same effect.
 
-**Note: do not do `import Vue from 'vue/dist/vue'` - this may cause the app to load both the runtime and standalone builds at the same time and lead to errors.**
+**Note: Do NOT do `import Vue from 'vue/dist/vue'` - since some tools or 3rd party libraries may import `vue` as well, this may cause the app to load both the runtime and standalone builds at the same time and lead to errors.**
 
 ## Supporting Libraries
 
