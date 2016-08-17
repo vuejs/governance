@@ -61,6 +61,8 @@ resolve: {
 
 For Browserify, you can use [aliasify](https://github.com/benbria/aliasify) for the same effect.
 
+**Note: do not do `import Vue from 'vue/dist/vue'` - this may cause the app to load both the runtime and standalone builds at the same time and lead to errors.**
+
 ## Supporting Libraries
 
 The main support libraries are [vue-router](https://github.com/vuejs/vue-router), a router for Vue components and [vuex](https://github.com/vuejs/vuex), a reactive flux-like implementation with single-state-tree store. Both libraries are now also in 2.0-rc state, however the documentation has not been updated yet.
