@@ -1,0 +1,13 @@
+- vue-router
+- vuex
+- vuejs.org (@chrisvfritz)
+- awesome-vue
+- vue-loader
+- vueify
+- vue-cli (@zigomir)
+  - webpack
+  - webpack-simple
+  - browserify
+  - browserify-simple
+  - simple (@chrisvfritz)
+- vuefire (@posva)
