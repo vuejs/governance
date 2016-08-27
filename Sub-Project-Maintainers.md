@@ -1,6 +1,7 @@
-- vue-router
-- vuex
-- vuejs.org (@chrisvfritz)
+- vue-router (@posva, @fnlctrl)
+- vuex (@ktsn)
+- vuejs.org (@chrisvfritz, @phanan)
+- jp.vuejs.org (@kazupon)
 - awesome-vue
 - vue-loader
 - vueify
@@ -11,3 +12,4 @@
   - browserify-simple (@zigomir)
   - simple (@chrisvfritz)
 - vuefire (@posva)
+- vue-validator (@kazupon)
