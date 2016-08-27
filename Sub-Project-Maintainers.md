@@ -7,7 +7,7 @@
 - vue-cli (@zigomir)
   - webpack
   - webpack-simple
-  - browserify
-  - browserify-simple
+  - browserify (@zigomir)
+  - browserify-simple (@zigomir)
   - simple (@chrisvfritz)
 - vuefire (@posva)
