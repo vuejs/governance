@@ -73,7 +73,9 @@ Users who continue to engage with the project and its community will often find 
 
 ## Decision-Making Process
 
-The benevolent dictatorship model does not need a formal conflict resolution process, since the project lead’s word is final. If the community chooses to question the wisdom of the actions of a core team member, the project lead can review their decisions by checking the relevant GitHub discussions, and either uphold or reverse them.
+Major changes to the framework, especially breaking changes, are usually communicated ahead of time to the community via the [RFC process](https://github.com/vuejs/rfcs). The RFC process provides an opportunity for the community to provide feedback in the design process, and allow the project lead and core team members to better gauge user needs.
+
+It is, however, important to note that the RFC process does not hold any authority in terms of decision making. In case of disagreements, the benevolent dictatorship model does not need a formal conflict resolution process, since the project lead’s word is final. If the community chooses to question the wisdom of the actions of a core team member, the project lead can review their decisions by checking the relevant GitHub discussions, and either uphold or reverse them.
 
 ## Contribution Process
 
