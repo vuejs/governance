@@ -1,0 +1,17 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8
+    steps:
+      - run: git config user.name "vue-bot"
+      - run: git config user.email "bot@vuejs.org"
+      - run: git remote remove origin
+      - run: git remote add origin https://$GITHUB_API_KEY@github.com/vuejs/wiki.git > /dev/null 2>&1
+      - run: git remote add upstream https://$GITHUB_API_KEY@github.com/vuejs/vue.wiki.git > /dev/null 2>&1
+      - run: git fetch origin
+      - run: git fetch uptream
+      - run: git merge upstream/master --no-edit
+      - run: git push origin HEAD:master > /dev/null 2>&1
+      - run: git push upstream HEAD:master > /dev/null 2>&1
