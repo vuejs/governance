@@ -20,7 +20,7 @@ Core team members have no authority over the overall direction of the project. H
 
 #### Active Core Team Members
 
-[Active Core Team Members](https://vuejs.org/v2/guide/team.html#active-core-team-members) contribute to the project on a regular basis. An active core team member usually have one or more focus area - in the most common cases, they will be responsible for the regular issue triaging, bug fixing or feature development in a sub project repository.
+[Active Core Team Members](https://vuejs.org/v2/guide/team.html#active-core-team-members) contribute to the project on a regular basis. An active core team member usually have one or more focus area - in the most common cases, they will be responsible for the regular issue triaging, bug fixing, documentation improvements or feature development in a sub project repository.
 
 #### Core Team Emeriti
 
