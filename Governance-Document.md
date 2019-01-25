@@ -24,7 +24,7 @@ Core team members have no authority over the overall direction of the project. H
 
 #### Core Team Emeriti
 
-Some core team members who have made valuable contributions in the past may no longer be able to regularly participate today due to various reasons. That is perfectly normal, and any past contributions to the project are still highly appreciated. These no-longer-active core team members are honored for their contributions as [Core Team Emeriti](https://vuejs.org/v2/guide/team.html#core-team-emeriti), and are welcome to resume active participation at any time.
+Some core team members who have made valuable contributions in the past may no longer be able to commit to the same level of participation today due to various reasons. That is perfectly normal, and any past contributions to the project are still highly appreciated. These core team members are honored for their contributions as [Core Team Emeriti](https://vuejs.org/v2/guide/team.html#core-team-emeriti), and are welcome to resume active participation at any time.
 
 ### Community Partners
 
