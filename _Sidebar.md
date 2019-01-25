@@ -1,2 +1,2 @@
-- [Governance Document](./governance)
-- [Code of Conduct](./coc)
+- [Governance Document](./Governance-Document)
+- [Code of Conduct](./Contributor-Code-of-Conduct)
