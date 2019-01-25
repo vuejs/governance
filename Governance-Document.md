@@ -4,9 +4,9 @@ This project is led by a benevolent dictator and managed by the community. That 
 
 ## Roles and Responsibilities
 
-## Benevolent Dictator / Project Lead
+### Benevolent Dictator / Project Lead
 
-Evan You (@yyx990803), the founder of the project, serves as the benevolent dictator and project lead of Vue.js.
+Evan You ([@yyx990803](http://github.com/yyx990803)), the founder of the project, serves as the benevolent dictator and project lead of Vue.js.
 
 The project lead has the final say in all aspects of decision making within the project. However, because the community always has the ability to fork, this person is fully answerable to the community. It is the project lead’s responsibility to set the strategic objectives of the project and communicate these clearly to the community. They also have to understand the community as a whole and strive to satisfy as many conflicting needs as possible, while ensuring that the project survives in the long term.
 
