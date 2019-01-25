@@ -12,7 +12,7 @@ jobs:
       - run: git remote add origin https://$GITHUB_API_KEY@github.com/vuejs/wiki.git > /dev/null 2>&1
       - run: git remote add upstream https://$GITHUB_API_KEY@github.com/vuejs/vue.wiki.git > /dev/null 2>&1
       - run: git fetch origin
-      - run: git fetch uptream
+      - run: git fetch upstream
       - run: git merge upstream/master --no-edit
       - run: git push origin HEAD:master > /dev/null 2>&1
       - run: git push upstream HEAD:master > /dev/null 2>&1
