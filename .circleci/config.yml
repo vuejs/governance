@@ -3,8 +3,9 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:8
+      - image: debian:stretch
     steps:
+      - checkout
       - run: git config user.name "vue-bot"
       - run: git config user.email "bot@vuejs.org"
       - run: git remote remove origin
