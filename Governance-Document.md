@@ -81,7 +81,7 @@ It is, however, important to note that the RFC process does not hold any authori
 
 Anyone can contribute to the project, regardless of their skills, as there are many ways to contribute. For instance, a contributor might be active in the project chatroom and issue tracker, or might supply pull requests. All forms of contribution must be performed in accordance to the project's [Contributor Code of Conduct](./coc.html).
 
-For technical contributions, especially for landing pull requests in the core repositories, there is a [dedicated guide (WIP)]() which new contributors should read and follow.
+We are also working on a [dedicated guide (WIP)]() which all new contributors should read and follow.
 
 ## Support
 
