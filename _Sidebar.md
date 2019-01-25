@@ -1,2 +1,2 @@
-- [Project Governance Document](./governance)
-- [Contributor Code of Conduct](./coc)
+- [Governance Document](./governance)
+- [Code of Conduct](./coc)
