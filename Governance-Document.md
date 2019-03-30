@@ -1,16 +1,16 @@
 ## Overview
 
-This project is led by a benevolent dictator and managed by the community. That is, the community actively contributes to the day-to-day maintenance of the project, but the general strategic line is drawn by the benevolent dictator. In case of disagreement, they have the last word. It is the benevolent dictator’s job to resolve disputes within the community and to ensure that the project is able to progress in a coordinated way. In turn, it is the community’s job to guide the decisions of the benevolent dictator through active engagement and contribution.
+This project is led by a project lead and managed by the community. That is, the community actively contributes to the day-to-day maintenance of the project, but the general strategic line is drawn by the project lead. In case of disagreement, they have the last word. It is the project lead’s job to resolve disputes within the community and to ensure that the project is able to progress in a coordinated way. In turn, it is the community’s job to guide the decisions of the project lead through active engagement and contribution.
 
 ## Roles and Responsibilities
 
-### Benevolent Dictator / Project Lead
+### Project Lead
 
-Evan You ([@yyx990803](http://github.com/yyx990803)), the founder of the project, serves as the benevolent dictator and project lead of Vue.js.
+Evan You ([@yyx990803](http://github.com/yyx990803)), the founder of the project, serves as the project lead of Vue.js.
 
 The project lead has the final say in all aspects of decision making within the project. However, because the community always has the ability to fork, this person is fully answerable to the community. It is the project lead’s responsibility to set the strategic objectives of the project and communicate these clearly to the community. They also have to understand the community as a whole and strive to satisfy as many conflicting needs as possible, while ensuring that the project survives in the long term.
 
-In many ways, the role of the benevolent dictator is less about dictatorship and more about diplomacy. The key is to ensure that, as the project expands, the right people are given influence over it and the community rallies behind the vision of the project lead. The lead’s job is then to ensure that the core team members (see below) make the right decisions on behalf of the project. Generally speaking, as long as the core team members are aligned with the project’s strategy, the project lead will allow them to proceed as they desire.
+In many ways, the role of the project lead is about diplomacy. The key is to ensure that, as the project expands, the right people are given influence over it and the community rallies behind the vision of the project lead. The lead’s job is then to ensure that the core team members (see below) make the right decisions on behalf of the project. Generally speaking, as long as the core team members are aligned with the project’s strategy, the project lead will allow them to proceed as they desire.
 
 ### The Core Team
 
@@ -40,7 +40,7 @@ Such contributors are recognized as [Community Partners](https://vuejs.org/v2/gu
 
 ### Contributors
 
-Contributors are community members who either have no desire to become core team members, or have not yet been given the opportunity by the benevolent dictator. They make valuable contributions, such as those outlined in the list below, but generally do not have the authority to make direct changes to the project code. Contributors engage with the project through communication tools, such as the [RFC discussions](https://github.com/vuejs/rfcs), [GitHub issues and pull requests](http://github.com/vuejs), [Discord chatroom](http://chat.vuejs.org), and [the forum](http://forum.vuejs.org).
+Contributors are community members who either have no desire to become core team members, or have not yet been given the opportunity by the project lead. They make valuable contributions, such as those outlined in the list below, but generally do not have the authority to make direct changes to the project code. Contributors engage with the project through communication tools, such as the [RFC discussions](https://github.com/vuejs/rfcs), [GitHub issues and pull requests](http://github.com/vuejs), [Discord chatroom](http://chat.vuejs.org), and [the forum](http://forum.vuejs.org).
 
 Anyone can become a contributor. There is no expectation of commitment to the project, no specific skill requirements and no selection process. To become a contributor, a community member simply has to perform one or more actions that are beneficial to the project.
 
@@ -75,7 +75,7 @@ Users who continue to engage with the project and its community will often find 
 
 Major changes to the framework, especially breaking changes, are usually communicated ahead of time to the community via the [RFC process](https://github.com/vuejs/rfcs). The RFC process provides an opportunity for the community to provide feedback in the design process, and allow the project lead and core team members to better gauge user needs.
 
-It is, however, important to note that the RFC process does not hold any authority in terms of decision making. In case of disagreements, the benevolent dictatorship model does not need a formal conflict resolution process, since the project lead’s word is final. If the community chooses to question the wisdom of the actions of a core team member, the project lead can review their decisions by checking the relevant GitHub discussions, and either uphold or reverse them.
+It is, however, important to note that the RFC process does not hold any authority in terms of decision making. In case of disagreements, the project lead model does not need a formal conflict resolution process, since the project lead’s word is final. If the community chooses to question the wisdom of the actions of a core team member, the project lead can review their decisions by checking the relevant GitHub discussions, and either uphold or reverse them.
 
 ## Contribution Process
 
@@ -86,7 +86,3 @@ We are also working on a [dedicated guide (WIP)]() which all new contributors sh
 ## Support
 
 All participants in the community are encouraged to provide support for new users within the project management infrastructure. This support is provided as a way of growing the community. Those seeking support should recognize that all support activity within the project is voluntary and is therefore provided as and when time allows. A user requiring guaranteed response times or results should therefore seek to purchase a support contract from a vendor. (Of course, that vendor should be an active member of the community.) However, for those willing to engage with the project on its own terms, and willing to help support other users, the community support channels are ideal.
-
----
-
-> This governance document is based upon the [Benevolent Dictator Governance Model](http://oss-watch.ac.uk/resources/benevolentdictatorgovernancemodel) by Ross Gardler and Gabriel Hanganu, licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). This document itself is also licensed under the same license.
