@@ -91,7 +91,7 @@ However, just like standard team members, this does not mean that core team memb
 
 #### #3. Be a reliable team player
 
-In addition, there are two additional traits that are critical to being a core team member: **consistency** and **collaboration. **Joining the core team is a commitment to not only the public but your team as well.
+In addition, there are two additional traits that are critical to being a core team member: **consistency** and **collaboration**. Joining the core team is a commitment to not only the public but your team as well.
 
 While the amount of time that each core team member can dedicate varies (which contributes to their consistency), it's also important to remember that our team is one that requires collaboration and teamwork.
 
