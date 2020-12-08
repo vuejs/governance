@@ -22,7 +22,7 @@ The Vue.js Team consists of members in the community who have provided valuable 
 
 ### What is expected of a team member?
 
-#### #1. Maintain a consistent presence in the project
+#### Maintain a consistent presence in the project
 
 There are no quotas that we use to measure people's contribution. In order to be a team member, team members are expected to contribute consistently, so that the community and team can depend on them.
 
@@ -41,7 +41,7 @@ Examples of contributions include:
 
 People are usually invited to join the team because they have made significant contributions within the Vue.js ecosystem, and in part, because we would like to keep in touch and coordinate in higher throughput means rather than PRs or issues. Examples of this type of communication can include, but are not limited to: Discord chat, meetings, calls, off-sites, and conferences.
 
-#### #2. Serve as a representative of the team
+#### Serve as a representative of the team
 
 While each team member is entitled to a level of privacy they are comfortable with, it is critical that all team members understand that **their** **words and conduct are not only a reflection of themselves, but also a reflection on the team**.
 
@@ -71,7 +71,7 @@ In addition to the responsibilities and expectations of a Vue.js team member, wh
 
 What is expected of a core team member?
 
-#### #1. Maintain a consistent presence in the project
+#### Maintain a consistent presence in the project
 
 In general, core team members are expected to maintain a consistent presence in the project. Some of these responsibilities include, but are not limited to:
 
@@ -81,7 +81,7 @@ In general, core team members are expected to maintain a consistent presence in 
 
 We also look for contributions over a longer period of time, so that we know the community can depend on the members long term.
 
-#### #2. Serve as a representative of the team and community
+#### Serve as a representative of the team and community
 
 Similar to Vue.js team members, while each core team member is entitled to a level of privacy they are comfortable with, it is critical that all core team members understand that **their** **words and conduct are not only a reflection of themselves, but also a reflection on the team and the community**.
 
@@ -89,7 +89,7 @@ In addition, core team members must understand and accept the responsibility tha
 
 However, just like standard team members, this does not mean that core team members are expected to manage conflicts or communication issues on their own. If they need assistance with crafting responses to sensitive or difficult situations, the team is here to support you.
 
-#### #3. Be a reliable team player
+#### Be a reliable team player
 
 In addition, there are two additional traits that are critical to being a core team member: **consistency** and **collaboration**. Joining the core team is a commitment to not only the public but your team as well.
 
