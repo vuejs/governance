@@ -14,7 +14,7 @@ There are three roles that people often take on when it comes to contributing to
 - **Contributor** - People who add value to the project (i.e., triaging issues, pull requests, updating documentation, etc.)
 - **Committer** - People who have commit and/or release permissions
 
-Vue.js team members take on these roles to varying degrees based on the individual. In addition, there is one additional trait that is critical to being a team member: _consistency**.**_
+Vue.js team members take on these roles to varying degrees based on the individual. In addition, there is one additional trait that is critical to being a team member: _**consistency**_.
 
 ## What is the Vue.js Team?
 
