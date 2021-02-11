@@ -6,7 +6,7 @@ As an open-source project, Vue.js supports the community by giving them confiden
 
 ## Background
 
-_This section was inspired by the[ Open Source Guide](https://opensource.guide/leadership-and-governance/#what-are-examples-of-formal-roles-used-in-open-source-projects)._
+_This section was inspired by the [Open Source Guide](https://opensource.guide/leadership-and-governance/#what-are-examples-of-formal-roles-used-in-open-source-projects)._
 
 There are three roles that people often take on when it comes to contributing to open source:
 
